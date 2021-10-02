@@ -1,0 +1,14 @@
+.markdown-preview-view .block-language-nomnoml {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.markdown-preview-view .block-language-nomnoml .nomnoml-diagram-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.markdown-preview-view .block-language-nomnoml .nomnoml-diagram-container > svg {
+    display: block;
+    margin: 0 auto;
+}

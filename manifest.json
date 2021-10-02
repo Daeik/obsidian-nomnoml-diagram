@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-nomnoml-diagram",
+	"name": "Nomnoml Diagram",
+	"version": "1.0.0",
+	"minAppVersion": "0.12.15",
+	"description": "Draw nomnoml diagrams in Obsidian notes",
+	"author": "Daeik Kim",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}
