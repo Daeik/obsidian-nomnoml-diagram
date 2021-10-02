@@ -1,6 +1,6 @@
 ## Obsidian nomnoml Diagram
 
-![An example of nomnoml diagram](./images/nomnoml-diagram-example.png)
+![An example of nomnoml diagram](./images/nomnoml-diagram-example.gif)
 
 This [Obsidian](https://obsidian.md/) plugin lets you draw [nomnoml](https://www.nomnoml.com/) diagrams inside of Obsidian notes.
 
