@@ -28,10 +28,17 @@ nomnoml directives are also supported to set diagram styles per diagram.
 Please check nomnoml's [official website](https://www.nomnoml.com/) and [GitHub repository](https://github.com/skanaar/nomnoml) for the full syntax references and more examples!
 
 
+## Notes
+
+- All diagrams are generated as SVG(Scalable Vector Graphics)
+- Obsidian's default "Export to PDF" includes generated SVG diagrams (And each text node is PDF annotatable!)
+
+
 ## Compatibility
 
 - Supports Obsidian desktop and mobile
 - Requires Obsidian v0.12.15 or above
+
 
 ## License
 
