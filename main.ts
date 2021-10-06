@@ -60,6 +60,27 @@ export default class NomnomlDiagram extends Plugin {
 
 		await this.loadSettings();
 
+		this.addCommand({
+			id: 'insert-nomnoml-code-fence',
+			name: 'New Diagram',
+			editorCallback: (editor: any, view: any) => {
+
+				const pos = editor.getCursor();
+
+				editor.replaceSelection([
+					'```nomnoml',
+					'[]',
+					'```',
+				].join('\n'));
+
+				editor.setCursor({
+					line: pos.line + 1,
+					ch:   1,
+				});
+
+			}
+		});
+
 		this.registerMarkdownCodeBlockProcessor('nomnoml', (source: string, el: HTMLElement, ctx: any) => {
 
 			const toRender: string = [
