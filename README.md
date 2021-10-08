@@ -32,7 +32,7 @@ Please check nomnoml's [official website](https://www.nomnoml.com/) and [GitHub 
 
 - All diagrams are generated as SVG(Scalable Vector Graphics)
 - Obsidian's default "Export to PDF" includes generated SVG diagrams (And each text node is PDF annotatable!)
-- Inserting diagrams will be less tedious once you set a hotkey for *[Nomnoml Diagram: New Diagram]* diagram. (Check *[Hotkeys]* in Obsidian Settings)
+- Inserting diagrams will be less tedious once you set a hotkey for *[Nomnoml Diagram: New Diagram]* command. (Check *[Hotkeys]* in Obsidian Settings)
 
 
 ## Compatibility
