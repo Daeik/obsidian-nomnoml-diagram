@@ -7,7 +7,7 @@ This [Obsidian](https://obsidian.md/) plugin lets you draw [nomnoml](https://www
 
 ## Drawing a nomnoml diagram
 
-To draw a nomnoml diagram inside of a note, you can simply use fenced code block syntax with `nomnoml` keyword.
+To draw a nomnoml diagram inside of a note, you can simply use fenced code block syntax with `nomnoml` keyword. (Or use *[Nomnoml Diagram: New Diagram]* command to insert auto-generated fenced code block)
 
     ```nomnoml
     [Example] -> [Diagram]
@@ -32,6 +32,7 @@ Please check nomnoml's [official website](https://www.nomnoml.com/) and [GitHub 
 
 - All diagrams are generated as SVG(Scalable Vector Graphics)
 - Obsidian's default "Export to PDF" includes generated SVG diagrams (And each text node is PDF annotatable!)
+- Inserting diagrams will be less tedious once you set a hotkey for *[Nomnoml Diagram: New Diagram]* diagram. (Check *[Hotkeys]* in Obsidian Settings)
 
 
 ## Compatibility
