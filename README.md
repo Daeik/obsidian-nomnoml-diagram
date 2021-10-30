@@ -31,14 +31,14 @@ Please check nomnoml's [official website](https://www.nomnoml.com/) and [GitHub 
 ## Notes
 
 - All diagrams are generated as SVG(Scalable Vector Graphics)
-- Obsidian's default "Export to PDF" includes generated SVG diagrams (And each text node is PDF annotatable!)
-- Inserting diagrams will be less tedious once you set a hotkey for *[Nomnoml Diagram: New Diagram]* command. (Check *[Hotkeys]* in Obsidian Settings)
+- Obsidian's default "Export to PDF" includes generated SVG diagrams (and each text node is PDF annotatable!)
+- Inserting new diagrams will be much easier using *[Nomnoml Diagram: New Diagram]* command by [a hotkey](https://help.obsidian.md/How+to/Use+hotkeys) or [`/` slash command (`v0.12.17+`)](https://forum.obsidian.md/t/obsidian-release-v0-12-17/25270)
 
 
 ## Compatibility
 
-- Supports Obsidian desktop and mobile
-- Requires Obsidian v0.12.15 or above
+- Supports Obsidian desktop and mobile versions
+- Tested for Obsidian `v0.12.15+`
 
 
 ## License
