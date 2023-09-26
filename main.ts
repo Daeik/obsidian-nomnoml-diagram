@@ -105,7 +105,11 @@ export default class NomnomlDiagram extends Plugin {
 					`</div>`,
 				].join('');
 			} catch (err) {
-				el.innerHTML = '';
+				el.innerHTML = [
+					`<div class="nomnoml-diagram-container">Possible Syntax Error: `,
+						`<em>${err.message}</em>`,
+					`</div>`,
+				].join('');
 			}
 
 		});
